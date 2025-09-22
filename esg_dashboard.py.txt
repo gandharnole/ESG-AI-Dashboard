@@ -1,0 +1,24 @@
+import streamlit as st
+
+# Title of the dashboard
+st.title("ESG Bot - Sustainability Dashboard")
+
+# Display ESG Score (Placeholder)
+esg_score = 75  # Example score
+st.metric(label="Overall ESG Score", value=esg_score, delta="+5 from last month")
+
+# Risk Section
+st.subheader("Risk Analysis")
+st.warning("⚠️ High carbon emissions detected in manufacturing plants!")
+
+# Recommendations
+st.subheader("Suggested Actions")
+st.write("✅ Increase use of renewable energy sources.")
+st.write("✅ Improve supply chain sustainability.")
+
+# Placeholder for future ML integration
+st.subheader("Coming Soon: AI-based Risk Detection & Analysis")
+
+# Footer
+st.write("---")
+st.caption("Developed by Gandhar Sidhaye")
